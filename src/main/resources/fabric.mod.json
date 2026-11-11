@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "smokefx",
+  "version": "${version}",
+  "name": "SmokeFX",
+  "description": "Client-side smoke, sparks and heat effects for fire, torches, lava, furnaces and burning mobs, with an adjustable particle amount.",
+  "authors": [
+    "You"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.smokefx.SmokeFxClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
